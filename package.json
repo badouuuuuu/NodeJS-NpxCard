@@ -1,8 +1,12 @@
 {
-  "name": "nodejs-npx-card",
+  "name": "NodeJS-Npx-Card",
   "version": "1.0.0",
-  "description": "npx-card",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "boxen": "^2.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/badouuuuuu/NodeJS-NpxCard.git"
   },
-  "keywords": [
-    "npx",
-    "card",
-    "node",
-    "nodejs"
-  ],
-  "author": "badouuuuuu",
+  "bin": {
+    "badou": "index.js"
+  },
+  "keywords": ["npx","npx card","business card","card"],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/badouuuuuu/NodeJS-NpxCard/issues"
