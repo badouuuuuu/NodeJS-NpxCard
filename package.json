@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-npx-card",
+  "version": "1.0.0",
+  "description": "npx-card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badouuuuuu/NodeJS-NpxCard.git"
+  },
+  "keywords": [
+    "npx",
+    "card",
+    "node",
+    "nodejs"
+  ],
+  "author": "badouuuuuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badouuuuuu/NodeJS-NpxCard/issues"
+  },
+  "homepage": "https://github.com/badouuuuuu/NodeJS-NpxCard#readme"
+}
