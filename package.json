@@ -1,27 +1,46 @@
 {
-  "name": "NodeJS-Npx-Card",
+  "name": "badou",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "./bin/card.js",
   "dependencies": {
-    "boxen": "^2.1.0"
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "emojic": "^1.1.15",
+    "fs": "0.0.1-security",
+    "log-symbols": "^2.2.0",
+    "path": "^0.12.7",
+    "standard": "^12.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "sudo npm run build && node ./bin/card.js",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/badouuuuuu/NodeJS-NpxCard.git"
   },
   "bin": {
-    "badou": "index.js"
+    "badou": "./bin/card.js"
   },
-  "keywords": ["npx","npx card","business card","card"],
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "keywords": [
+    "npx",
+    "npx card",
+    "business card",
+    "card"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/badouuuuuu/NodeJS-NpxCard/issues"
   },
-  "homepage": "https://github.com/badouuuuuu/NodeJS-NpxCard#readme"
+  "homepage": "https://github.com/badouuuuuu/NodeJS-NpxCard#readme",
+  "description": ""
 }
