@@ -13,7 +13,6 @@ const options = {
    margin: 1,
    borderStyle: 'round',
    dimBorder: true,
-   float: "center",
 }
 
 const data = {
@@ -24,13 +23,13 @@ const data = {
    npm: chalk.gray('https://npmjs.com/') + chalk.red('~badouuuuuu'),
    github: chalk.gray('https://github.com/') + chalk.green('badouuuuuuu'),
    linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('youssef-el-hirech'),
-   npx: chalk.red('npx') + ' ' + chalk.white('badou'),
+   npx: chalk.red('npx') + ' ' + chalk.white('badou '),
    labelWork: chalk.white.bold('       Work:'),
    labelTwitter: chalk.white.bold('    Twitter:'),
    labelnpm: chalk.white.bold('        npm:'),
    labelGitHub: chalk.white.bold('     GitHub:'),
    labelLinkedIn: chalk.white.bold('   LinkedIn:'),
-   labelCard: chalk.white.bold('       '  + emojic.heartEyes + '  Card:')
+   labelCard: chalk.white.bold('       '  + emojic.heartEyes + '   Card:')
 }
 
 const heading = `${data.name} / ${data.handle}`
